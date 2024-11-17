@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         alert("Sign-up successful!");
         // Redirect to your main app page or login page
+        window.location.href = '../project.html'; // Redirect to home page
       }
     });
   }
