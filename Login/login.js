@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Replace with your Supabase credentials
   const supabaseUrl = "https://eezfuepltuaserfsmmuj.supabase.co"; // Replace with your Supabase URL
-  const supabaseKey = "REPLACE WITH SUPABASE KEY"; // Replace with your Supabase Key
+  const supabaseKey = "REPLACE WITH YOUR KEY"; // Replace with your Supabase Key
 
   const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
 
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error("Email Sign-in Error:", error.message);
         alert("Error logging in with email. Check your credentials.");
       } else {
-        alert(`Login successful as ${userType}!`);
-        // Redirect to your main app page
+        // alert(`Login successful as ${userType}!`);
+        window.location.href = '../project.html'; // Redirect to home page
       }
     });
   }
