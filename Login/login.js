@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Replace with your Supabase credentials
-  const supabaseUrl = "https://eezfuepltuaserfsmmuj.supabase.co"; // Replace with your Supabase URL
+  const supabaseUrl = "REPLACE WITH YOUR URL"; // Replace with your Supabase URL
   const supabaseKey = "REPLACE WITH YOUR KEY"; // Replace with your Supabase Key
 
   const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
