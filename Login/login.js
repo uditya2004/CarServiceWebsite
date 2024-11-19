@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Replace with your Supabase credentials
-  const supabaseUrl = "https://eezfuepltuaserfsmmuj.supabase.co"; // Replace with your Supabase URL
-  const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVlemZ1ZXBsdHVhc2VyZnNtbXVqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE4MTI0MDcsImV4cCI6MjA0NzM4ODQwN30.wwiDFABbMZY2UBg499F22-YCZpf06J8ICYm4SRyC2eI"; // Replace with your Supabase Key
+  const supabaseUrl = "REPLACE WITH URL"; // Replace with your Supabase URL
+  const supabaseKey = "REPLACE WITH KEY"; // Replace with your Supabase Key
 
   const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
 
